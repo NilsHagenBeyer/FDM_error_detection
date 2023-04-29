@@ -7,6 +7,8 @@ An implementation of differend experiments is prepared in the *RUN_EXPERIMENTS* 
 
 ## Training the model
 
+First extract the PRINTING_ERRORS.zip dataset in the /PRINTING_ERRORS directory
+
 To train the model use the *start_model* script:
 
 Example for training an ResNet18 model:
@@ -35,5 +37,15 @@ The parameter for training the model are as followed:
     --im_path       Directory of the image data
     --test_ckpt     Filepath of a checkpoint if used for testing
     
-Train
+
+The implementation uses the tensorboard logger that will save the log files in the /tblogs folder.
+Model checkpoints are stored in the /models folder.
+
+## Experiments
+
+The experiments that were carried out on the model are scripted in the *RUN_EXPERIMENTS* script.
+The model is trained with different augmentation strategies, and data splits.
+
+The processed results of the experiments are stored in the /Results folder.
+
   
