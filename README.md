@@ -9,7 +9,8 @@ An implementation of differend experiments is prepared in the *RUN_EXPERIMENTS* 
 
 To train the model use the *start_model* script:
 
-    The arguments are as followed:
+
+The arguments are as followed:
     --net           Choice of network architecture: Coose from "ResNet" and "baseCNN"
     --net_version   Choose version for the ResNet: 18, 34, 50, 101, 152
     --lr            Learning rate
