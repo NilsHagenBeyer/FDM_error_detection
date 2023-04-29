@@ -1,0 +1,10 @@
+precision_tl(0): precision_0
+precision_tl(1): precision_1
+precision_tl(2): precision_2
+recall_tl(0): recall_0
+recall_tl(1): recall_1
+recall_tl(2): recall_2
+test_acc_1/dataloader_idx_0: test_acc_0
+test_acc_1/dataloader_idx_1: test_acc_1
+test_acc_1/dataloader_idx_2: test_acc_2
+test_acc_1: test_acc
