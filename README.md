@@ -15,6 +15,7 @@ Example for training an ResNet18 model:
     python3 start_model.py --exp_name Test --exp_version 1 --aug vertical_flip --train PRINTING_ERRORS\general_data\black_bed_train.csv --test PRINTING_ERRORS\general_data\black_bed_test10%.csv --im_path PRINTING_ERRORS\images\all_images256
 
 
+
 The parameter for training the model are as followed:
 
     #Parameter
