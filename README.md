@@ -2,6 +2,7 @@
 
 Is an experimental setup to train machine learing models to detect printng errors in FDM 3D printed parts.
 The repository consists of a model, wich can be configured to fit different network architectures (ResNet, base_cnn)
+This project allows to perform a parameter search for multiple models.
 
 An implementation of differend experiments is prepared in the *RUN_EXPERIMENTS* scripts
 
