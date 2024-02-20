@@ -4,6 +4,16 @@ Is an experimental setup to train machine learing models to detect printng error
 The repository consists of a model, wich can be configured to fit different network architectures (ResNet, base_cnn)
 This project allows to perform a parameter search for multiple models.
 
+### Related work
+
+#### Dataset
+https://www.kaggle.com/nimbus200
+
+#### Dataset recorder
+https://github.com/NilsHagenBeyer/3D-printing_recorder
+
+
+
 An implementation of differend experiments is prepared in the *RUN_EXPERIMENTS* scripts
 
 ## Training the model
